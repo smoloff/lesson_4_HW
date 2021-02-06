@@ -1,12 +1,9 @@
-let age;
+const func = (age, name) => {
+      if (name == undefined || age < 6) {
+        return false; 
+    } else {
+        return true;
+    }    
+}
+console.log(func(6, 'ivan'));
 
-let funk function  (age) {
-if (age > 6) {
-    return true;
-    console.log(age);
-} else {
-return false;
-console.log(age);
-}
-}
-console.log(func(7));
